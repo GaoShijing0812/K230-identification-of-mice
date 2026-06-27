@@ -1,6 +1,9 @@
+
 <div align="center">
 
 # 🐭 Mouse Behavior Monitor
+
+<img width="704" height="707" alt="318f2f8df10e1299c7cd628fa2b87702" src="https://github.com/user-attachments/assets/bbd0f0a1-9c60-44db-a087-5ac399610106" />
 
 **Real-time mouse behavior recognition system based on K230 + STM32F407**
 
@@ -43,16 +46,17 @@ The K230 board runs the YOLO11 model for video inference, then sends detection r
 
 ## Demo
 
-<!-- TODO: Add demo video or screenshot here -->
+<img width="800" height="480" alt="lckfb_00212_800x480" src="https://github.com/user-attachments/assets/b31b5c45-7ec9-4e2e-8a3a-17119f53326d" />
+<img width="800" height="480" alt="lckfb_00061_800x480" src="https://github.com/user-attachments/assets/c29a4d9b-f771-4557-807e-6533354fce15" />
+<img width="800" height="480" alt="lckfb_00043_800x480" src="https://github.com/user-attachments/assets/eff3d9f4-3dba-451b-bfa3-53e79c0027a4" />
 
-📸 *Screenshots / demo GIF to be added*
 
 ## Highlights
 
-- 🎯 **Real-time Detection** — YOLO11 on K230 with 320×320 input, 0.7 confidence threshold
-- 🔌 **Dual-chip Architecture** — K230 handles AI inference; STM32 handles display
-- 📺 **Multi-page LCD UI** — Summary page + 3 individual mouse detail pages, switchable via button
-- 📡 **Lightweight UART Protocol** — CSV-formatted frames at 115200 baud
+-  **Real-time Detection** — YOLO11 on K230 with 320×320 input, 0.7 confidence threshold
+-  **Dual-chip Architecture** — K230 handles AI inference; STM32 handles display
+-  **Multi-page LCD UI** — Summary page + 3 individual mouse detail pages, switchable via button
+ **Lightweight UART Protocol** — CSV-formatted frames at 115200 baud
 
 ## Architecture
 
@@ -374,16 +378,16 @@ K230 负责 YOLO11 模型推理，通过 UART 将检测结果发送至 STM32F407
 
 ## 演示
 
-<!-- TODO: 添加演示视频或截图 -->
-
-📸 *截图 / 演示 GIF 待添加*
+<img width="800" height="480" alt="lckfb_00212_800x480" src="https://github.com/user-attachments/assets/b31b5c45-7ec9-4e2e-8a3a-17119f53326d" />
+<img width="800" height="480" alt="lckfb_00061_800x480" src="https://github.com/user-attachments/assets/c29a4d9b-f771-4557-807e-6533354fce15" />
+<img width="800" height="480" alt="lckfb_00043_800x480" src="https://github.com/user-attachments/assets/eff3d9f4-3dba-451b-bfa3-53e79c0027a4" />
 
 ## 功能亮点
 
-- 🎯 **实时检测** — K230 上运行 YOLO11，320×320 输入，0.7 置信度阈值
-- 🔌 **双芯片架构** — K230 负责 AI 推理，STM32 负责显示控制
-- 📺 **LCD 多页显示** — 汇总页 + 3 个独立小鼠详情页，按键切换
-- 📡 **轻量通信协议** — CSV 格式数据帧，115200 波特率
+-  **实时检测** — K230 上运行 YOLO11，320×320 输入，0.7 置信度阈值
+-  **双芯片架构** — K230 负责 AI 推理，STM32 负责显示控制
+-  **LCD 多页显示** — 汇总页 + 3 个独立小鼠详情页，按键切换
+-  **轻量通信协议** — CSV 格式数据帧，115200 波特率
 
 ## 系统架构
 
